@@ -11,7 +11,7 @@ public class DoWhileContinue_Even {
 				continue;
 			}
 			sum += i;	
-			}while (i <=100);
+			}while (i <100);
 		// 컨티뉴를 사용하면 조건문으로 이동
 		System.out.println(sum);
 	}
