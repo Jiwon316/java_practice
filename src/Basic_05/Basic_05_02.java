@@ -9,15 +9,14 @@ public class Basic_05_02 {
 		System.out.println("사람 수는 몇명 :");
 		int a = in.nextInt();
 		System.out.println("점수를 입력하세요 : ");
-	
-		int [] scores;
+		
+	    int[] scores;
 		
 		for(int i=1;i<=a;i++) {
-			scores[i]=in.nextInt();
 			System.out.println(i+"번의 점수 : "+in.nextInt());
         }
 
-		int sum=add( );
+		int sum= add(new int[] {});
     	int avg=sum/a;
     	
 				
@@ -29,9 +28,8 @@ public class Basic_05_02 {
 	public static int add(int[]scores) {
 		int sum=0;
 		for(int i=0;i<scores.length;i++) {
-			sum+=i;
+			sum+=scores [i];
 		}
 			return sum;
 	}
 }
-//length를 활용해보기
