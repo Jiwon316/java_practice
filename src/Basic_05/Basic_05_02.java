@@ -10,12 +10,14 @@ public class Basic_05_02 {
 		int a = in.nextInt();
 		System.out.println("점수를 입력하세요 : ");
 	
+		int [] scores;
 		
 		for(int i=1;i<=a;i++) {
+			scores[i]=in.nextInt();
 			System.out.println(i+"번의 점수 : "+in.nextInt());
         }
-		
-		int sum=0;
+
+		int sum=add( );
     	int avg=sum/a;
     	
 				
