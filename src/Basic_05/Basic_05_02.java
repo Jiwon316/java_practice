@@ -10,17 +10,17 @@ public class Basic_05_02 {
 		int a = in.nextInt();
 		System.out.println("점수를 입력하세요 : ");
 		
-	    int[] scores;
+	    int[] scores =new int [a];
 		
 		for(int i=1;i<=a;i++) {
-			System.out.println(i+"번의 점수 : "+in.nextInt());
+			scores [i-1]=in.nextInt();
+			System.out.println(i+"번의 점수 : "+scores[i-1]);
         }
 
-		int sum= add(new int[] {});
-    	int avg=sum/a;
+		int sum1= add(scores);
+    	int avg=sum1/a;
     	
-				
-     	System.out.println("합계는 "+sum+"입니다.");
+     	System.out.println("합계는 "+sum1+"입니다.");
      	System.out.println("평균은 "+avg+"입니다.");
      	System.out.println("최고점은 "+"모름"+"입니다.");
      	System.out.println("최저점은 "+"모름"+"입니다.");
