@@ -10,7 +10,7 @@ public class ArrayExample3 {
 		System.out.println();
 		System.out.print("총합: " + sum2);
 		
-		//int sum3=add(10,20,30);
+		//int sum3=add(10,20,30); ->에러발생
         //개수가 맞지 않음
 	}
 
