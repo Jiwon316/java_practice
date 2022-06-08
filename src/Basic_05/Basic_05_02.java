@@ -13,8 +13,8 @@ public class Basic_05_02 {
 	    int[] scores =new int [a];
 		
 		for(int i=1;i<=a;i++) {
+			System.out.print(i+"번의 점수 : ");
 			scores [i-1]=in.nextInt();
-			System.out.println(i+"번의 점수 : "+scores[i-1]);
         }
 
 		int sum1= add(scores);
