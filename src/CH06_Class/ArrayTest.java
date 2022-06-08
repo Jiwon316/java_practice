@@ -21,8 +21,6 @@ public class ArrayTest {
 			//System.out.println(members[i].memberNo+"번 회원의 아이디는 "+members[i].memberId+"이고, 이름은 "+members[i].memberName+"입니다.");	
 			  System.out.printf("%d번 회원의 아이디는 %s이고, 이름은 %s입니다.\n",
 			  members[i].memberNo, members[i].memberId, members[i].memberName);
-			
-			 
 			//%d:digit, 모르는 부분은 구글링하기
 		}
 		
