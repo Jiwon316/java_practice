@@ -9,13 +9,7 @@ public class Basic_03_05_1 {
 		System.out.println("2 이상의 정수값 : ");
 		int a = in.nextInt();
 		for (int i = 2; i <a; i++) {
-			if (a % i == 0) {
-				System.out.println("입력하신 값은 소수가 아닙니다.");
-				break;
-			}
-			else{
-				continue;			
-			}
+             //int x = (a%i==0)?'':'';
 		}
 
 	}   
