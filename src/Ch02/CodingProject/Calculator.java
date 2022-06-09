@@ -50,7 +50,7 @@ public class Calculator {
 		double circleArea1=circleArea(r);
 		circleArea1=(double) Math.round(circleArea1*10)/10;
 		//소수점 둘째자리에서 반올림하는 코드
-		System.out.println("반지름이 ㄱ값인 원의 둘레는"+circleArea1+"입니다.");
+		System.out.println("반지름이 r값인 원의 둘레는"+circleArea1+"입니다.");
 		
 		
 		
