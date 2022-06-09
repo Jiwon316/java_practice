@@ -9,7 +9,6 @@ public class Calculator {
 
 	public static int add(int a, int b) {
 		return a+b;
-		//int add=a+b; 불필요한 내용
 	}
 
 	public static int sub(int a, int b) {
