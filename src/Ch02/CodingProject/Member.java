@@ -12,10 +12,11 @@ public class Member {
 		
 		Member member = new Member();
 		
-		member.name;
-		member.age;
-	    member.height;
-		member.hasBook;
+		//member.name;
+		//member.age;
+	    //member.height;
+		//member.hasBook;
+		//new로 선언만 하면 클래스가 메모리로 올라가기 때문에 변수들 안 적어줘도 됨
 		
 		System.out.println("회원님의 이름은 "+member.name+"입니다.");
 		System.out.println("회원님의 나이는 "+member.age+"입니다.");
